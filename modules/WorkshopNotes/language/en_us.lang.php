@@ -9,15 +9,17 @@
  ************************************************************************************/
 
 $mod_strings = Array(
-	'ModuleName' => 'Module Name',
-	'SINGLE_ModuleName' => 'Module Name',
-	'ModuleName ID' => 'Module Name ID',
+	'WorkshopNotes' => 'Workshop Notes',
+	'SINGLE_WorkshopNotes' => 'Workshop Note',
+	'WorkshopNotes ID' => 'Workshop Notes ID',
 
-	'LBL_CUSTOM_INFORMATION' => 'Custom Information',
-	'LBL_MODULEBLOCK_INFORMATION' => 'ModuleBlock Information',
-	'LBL_DESCRIPTION_INFORMATION' => 'Description',
+	'LBL_WORKSHOPNOTES_INFORMATION' => 'Workshop Note information',
+	'LBL_WORKSHOPNOTES_DESCRIPTION' => 'Workshop Note description',
 
-	'ModuleFieldLabel' => 'ModuleFieldLabel Text',
+	'workshopnotes_no' => 'Note no.',
+	'workshopnotes_execdate' => 'Execution date',
+	'workshopnotes_eventcolor' => 'Event color',
+	'workshopnotes_relsoid' => 'Related SalesOrder',
 );
 
 ?>

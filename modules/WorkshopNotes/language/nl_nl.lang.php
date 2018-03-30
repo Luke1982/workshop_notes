@@ -9,15 +9,27 @@
  ************************************************************************************/
 
 $mod_strings = Array(
-	'ModuleName' => 'Module Name',
-	'SINGLE_ModuleName' => 'Module Name',
-	'ModuleName ID' => 'Module Name ID',
+	'WorkshopNotes' => 'Order notities',
+	'SINGLE_WorkshopNotes' => 'Order notitie',
+	'WorkshopNotes ID' => 'Order notitie ID',
 
-	'LBL_CUSTOM_INFORMATION' => 'Custom Information',
-	'LBL_MODULEBLOCK_INFORMATION' => 'ModuleBlock Information',
-	'LBL_DESCRIPTION_INFORMATION' => 'Verkoopkans omschrijving',
+	'LBL_WORKSHOPNOTES_INFORMATION' => 'Order notitie informatie',
+	'LBL_WORKSHOPNOTES_DESCRIPTION' => 'Order notitie beschrijving',
 
-	'ModuleFieldLabel' => 'ModuleFieldLabel Text',
+	'workshopnotes_no' => 'Order notitie nr.',
+	'workshopnotes_execdate' => 'Uitvoerdatum',
+	'workshopnotes_eventcolor' => 'Kleur in kalender',
+	'workshopnotes_relsoid' => 'Gerelateerde order',
+
+	// Color picklist translation
+	'Blue' => 'Blauw',
+	'Red' => 'Rood',
+	'Orange' => 'Oranje',
+	'Brown' => 'Bruin',
+	'Pink' => 'Roze',
+	'Green' => 'Groen',
+	'Yellow' => 'Geel',
+
 );
 
 ?>
