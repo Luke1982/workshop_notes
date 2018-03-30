@@ -402,6 +402,14 @@ class WorkshopNotes extends CRMEntity {
 		if($event_type == 'module.postinstall') {
 			// TODO Handle post installation actions
 			$this->setModuleSeqNumber('configure', $modulename, 'WSN-', '0000001');
+
+			include_once('vtlib/Vtiger/Module.php');
+			$so_instance = Vtiger_Module::getInstance('SalesOrder');
+			$so_instance->setRelatedList(
+				Vtiger_Module::getInstance('WorkshopNotes'),
+				'WorkshopNotes',
+				Array('ADD','SELECT')
+			);
 		} else if($event_type == 'module.disabled') {
 			// TODO Handle actions when this module is disabled.
 		} else if($event_type == 'module.enabled') {
