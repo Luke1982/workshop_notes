@@ -9,14 +9,14 @@
  ************************************************************************************/
 
 $mod_strings = Array(
-	'WorkshopNotes' => 'Order notities',
-	'SINGLE_WorkshopNotes' => 'Order notitie',
-	'WorkshopNotes ID' => 'Order notitie ID',
+	'WorkshopNotes' => 'Werkplaats notities',
+	'SINGLE_WorkshopNotes' => 'Werkplaats notitie',
+	'WorkshopNotes ID' => 'Werkplaats notitie ID',
 
-	'LBL_WORKSHOPNOTES_INFORMATION' => 'Order notitie informatie',
-	'LBL_WORKSHOPNOTES_DESCRIPTION' => 'Order notitie beschrijving',
+	'LBL_WORKSHOPNOTES_INFORMATION' => 'Werkplaats notitie informatie',
+	'LBL_WORKSHOPNOTES_DESCRIPTION' => 'Werkplaats notitie beschrijving',
 
-	'workshopnotes_no' => 'Order notitie nr.',
+	'workshopnotes_no' => 'Werkplaats notitie nr.',
 	'workshopnotes_execdate' => 'Uitvoerdatum',
 	'workshopnotes_eventcolor' => 'Kleur in kalender',
 	'workshopnotes_relsoid' => 'Gerelateerde order',
