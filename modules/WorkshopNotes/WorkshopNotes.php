@@ -408,6 +408,11 @@ class WorkshopNotes extends CRMEntity {
 			// TODO Handle actions when this module is enabled.
 		} else if($event_type == 'module.preuninstall') {
 			// TODO Handle actions when this module is about to be deleted.
+			global $adb;
+			$adb->query('DROP TABLE vtiger_workshopnotes');
+			$adb->query('DROP TABLE vtiger_workshopnotescf');
+			$adb->query('DROP TABLE vtiger_workshopnotes_eventcolor_seq');
+			$adb->query('DROP TABLE vtiger_workshopnotes_eventcolor');
 		} else if($event_type == 'module.preupdate') {
 			// TODO Handle actions before this module is updated.
 		} else if($event_type == 'module.postupdate') {
