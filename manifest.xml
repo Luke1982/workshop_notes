@@ -34,7 +34,7 @@
 			<table>
 				<name>vtiger_workshopnotes</name>
 				<sql><![CDATA[CREATE TABLE `vtiger_workshopnotes` (
-					`workshopnotesid` int(11) default NULL,
+					`workshopnotesid` int(11) NOT NULL,
 					`workshopnotes_no` varchar(56) default NULL,
 					`workshopnotes_execdate` DATE default NULL,
 					`workshopnotes_eventcolor` VARCHAR(56) DEFAULT NULL,
